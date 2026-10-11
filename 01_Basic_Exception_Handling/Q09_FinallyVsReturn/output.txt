@@ -1,0 +1,12 @@
+$ javac Q09_FinallyVsReturn.java
+$ java Q09_FinallyVsReturn
+
+=== Demo 1: return in try + message in finally ===
+1. Inside try block, returning x = 10
+2. Inside finally block (executes BEFORE method returns), x = 99
+3. Back in main(), method returned: 10
+
+=== Demo 2: return inside finally overrides try's return ===
+overrideDemo() returned: 2
+
+Conclusion: try runs first, then finally, then the value is returned.

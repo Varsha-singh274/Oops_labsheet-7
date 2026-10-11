@@ -1,0 +1,15 @@
+$ javac InvalidPasswordException.java Q07_CustomException.java
+
+==================== SAMPLE RUN 1 ====================
+$ java Q07_CustomException
+(keyboard input: hello@123 )
+
+Enter a password: Password accepted.
+
+
+==================== SAMPLE RUN 2 ====================
+$ java Q07_CustomException
+(keyboard input: abc )
+
+Enter a password: InvalidPasswordException caught: Password too short! Length is 3, minimum required is 6.
+

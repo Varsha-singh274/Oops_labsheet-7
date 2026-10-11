@@ -1,0 +1,19 @@
+$ javac testpack/*.java Q03_Main.java
+$ java Q03_Main
+
+PublicClass.show(): accessible from any package.
+HiddenClass.show(): only accessible inside package testpack.
+
+==================== EXPERIMENT: trying to access the default class ====================
+(Q03_Main.java with 'import testpack.HiddenClass;' and 'new HiddenClass()' enabled)
+$ javac testpack/*.java Bad.java
+Bad.java:1: error: HiddenClass is not public in testpack; cannot be accessed from outside package
+import testpack.HiddenClass;
+               ^
+Bad.java:4: error: HiddenClass is not public in testpack; cannot be accessed from outside package
+        HiddenClass h = new HiddenClass();
+        ^
+Bad.java:4: error: HiddenClass is not public in testpack; cannot be accessed from outside package
+        HiddenClass h = new HiddenClass();
+                            ^
+3 errors

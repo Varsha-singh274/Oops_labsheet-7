@@ -1,0 +1,5 @@
+$ javac animals/Dog.java Q06_WithImport.java Q06_FullyQualified.java
+$ java Q06_WithImport && java Q06_FullyQualified
+
+Dog says: Woof! Woof!
+Dog says: Woof! Woof!

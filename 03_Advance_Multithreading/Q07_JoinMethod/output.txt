@@ -1,0 +1,16 @@
+$ javac Q07_JoinMethod.java
+$ java Q07_JoinMethod
+
+ProcessorThread : waiting for LoaderThread to finish...
+LoaderThread    : loading data part 1/5
+LoaderThread    : loading data part 2/5
+LoaderThread    : loading data part 3/5
+LoaderThread    : loading data part 4/5
+LoaderThread    : loading data part 5/5
+LoaderThread    : loading COMPLETE.
+ProcessorThread : data loaded, processing started...
+ProcessorThread : processing step 1/3
+ProcessorThread : processing step 2/3
+ProcessorThread : processing step 3/3
+ProcessorThread : processing COMPLETE.
+main            : both threads finished. Program ends.

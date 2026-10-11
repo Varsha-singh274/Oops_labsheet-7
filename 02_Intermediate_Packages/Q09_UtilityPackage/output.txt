@@ -1,0 +1,6 @@
+$ javac utils/MathUtils.java Q09_Main.java
+$ java Q09_Main
+
+add(20, 8)      = 28
+subtract(20, 8) = 12
+multiply(20, 8) = 160

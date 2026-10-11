@@ -1,0 +1,6 @@
+$ javac mypackage/*.java Q07_Main.java
+$ java Q07_Main
+
+Hello from class A of package mypackage
+Hello from class B of package mypackage
+Hello from class C of package mypackage

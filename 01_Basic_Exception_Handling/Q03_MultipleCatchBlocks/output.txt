@@ -1,0 +1,25 @@
+$ javac Q03_MultipleCatchBlocks.java
+
+==================== SAMPLE RUN 1 ====================
+$ java Q03_MultipleCatchBlocks
+(keyboard input: 20 4 )
+
+Enter first number  : Enter second number : Result = 5
+Program finished.
+
+
+==================== SAMPLE RUN 2 ====================
+$ java Q03_MultipleCatchBlocks
+(keyboard input: abc 5 )
+
+Enter first number  : Enter second number : Error: Please enter valid integers only. (For input string: "abc")
+Program finished.
+
+
+==================== SAMPLE RUN 3 ====================
+$ java Q03_MultipleCatchBlocks
+(keyboard input: 10 0 )
+
+Enter first number  : Enter second number : Error: Division by zero is not allowed. (/ by zero)
+Program finished.
+

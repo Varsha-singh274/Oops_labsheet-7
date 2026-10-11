@@ -1,0 +1,15 @@
+$ javac Q08_ThrowsKeyword.java
+
+==================== SAMPLE RUN 1 ====================
+$ java Q08_ThrowsKeyword
+(keyboard input: 42 )
+
+Enter a number: You entered: 42 (square = 1764)
+
+
+==================== SAMPLE RUN 2 ====================
+$ java Q08_ThrowsKeyword
+(keyboard input: forty )
+
+Enter a number: Caught in main(): invalid number. For input string: "forty"
+
