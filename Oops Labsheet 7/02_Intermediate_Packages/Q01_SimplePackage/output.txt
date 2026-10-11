@@ -1,4 +1,0 @@
-$ javac mypack/Hello.java Q01_Main.java
-$ java Q01_Main
-
-Hello from package mypack!

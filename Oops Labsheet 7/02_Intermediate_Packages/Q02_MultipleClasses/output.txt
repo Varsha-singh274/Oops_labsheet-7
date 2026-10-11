@@ -1,5 +1,0 @@
-$ javac shapes/*.java Q02_Main.java
-$ java Q02_Main
-
-Area of Circle (radius 7)          = 153.94
-Area of Rectangle (10 x 5)         = 50.00

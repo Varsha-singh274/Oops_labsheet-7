@@ -1,6 +1,0 @@
-$ javac Q08_RaceCondition.java
-$ java Q08_RaceCondition
-
-Round 1 -> Expected: 50000, Actual: 10002   <-- INCORRECT (race condition)
-Round 2 -> Expected: 50000, Actual: 10002   <-- INCORRECT (race condition)
-Round 3 -> Expected: 50000, Actual: 10002   <-- INCORRECT (race condition)

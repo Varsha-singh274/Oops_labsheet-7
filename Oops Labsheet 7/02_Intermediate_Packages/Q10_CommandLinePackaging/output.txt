@@ -1,6 +1,0 @@
-$ javac -d . Student.java && javac -d . Main.java
-$ java college.students.Main
-
-Roll No : 1
-Name    : Amit Kumar
-Course  : MCA

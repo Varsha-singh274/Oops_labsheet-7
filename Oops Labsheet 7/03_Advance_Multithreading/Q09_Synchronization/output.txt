@@ -1,6 +1,0 @@
-$ javac Q09_Synchronization.java
-$ java Q09_Synchronization
-
-Round 1 -> Expected: 50000 | synchronized method: 50000 | synchronized block: 50000
-Round 2 -> Expected: 50000 | synchronized method: 50000 | synchronized block: 50000
-Round 3 -> Expected: 50000 | synchronized method: 50000 | synchronized block: 50000
