@@ -1,0 +1,13 @@
+$ javac Q02_RunnableInterface.java
+$ java Q02_RunnableInterface
+
+NumberThread -> 1
+NumberThread -> 2
+NumberThread -> 3
+NumberThread -> 4
+NumberThread -> 5
+NumberThread -> 6
+NumberThread -> 7
+NumberThread -> 8
+NumberThread -> 9
+NumberThread -> 10

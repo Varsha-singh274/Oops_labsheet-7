@@ -1,0 +1,6 @@
+$ javac company/employees/Employee.java company/main/Main.java
+$ java company.main.Main
+
+Employee ID : 101
+Name        : Rahul Sharma
+Salary      : 55000.5

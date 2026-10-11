@@ -1,0 +1,14 @@
+$ javac Q04_TwoThreadsScheduling.java
+$ java Q04_TwoThreadsScheduling
+
+main thread: both threads started, main continues independently.
+Running: Thread-B  (iteration 1)
+Running: Thread-A  (iteration 1)
+Running: Thread-B  (iteration 2)
+Running: Thread-A  (iteration 2)
+Running: Thread-B  (iteration 3)
+Running: Thread-A  (iteration 3)
+Running: Thread-B  (iteration 4)
+Running: Thread-A  (iteration 4)
+Running: Thread-B  (iteration 5)
+Running: Thread-A  (iteration 5)

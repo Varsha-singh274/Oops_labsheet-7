@@ -1,0 +1,8 @@
+$ javac Q01_ThreadClass.java
+$ java Q01_ThreadClass
+
+Message 1 from Thread-0: Hello, I am a thread!
+Message 2 from Thread-0: Hello, I am a thread!
+Message 3 from Thread-0: Hello, I am a thread!
+Message 4 from Thread-0: Hello, I am a thread!
+Message 5 from Thread-0: Hello, I am a thread!
